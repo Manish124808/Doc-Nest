@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128">
+  <!-- Face -->
+  <circle cx="32" cy="32" r="30" fill="#FFCC4D"/>
+
+  <!-- Eyes -->
+  <circle cx="22" cy="26" r="4" fill="#664500"/>
+  <circle cx="42" cy="26" r="4" fill="#664500"/>
+
+  <!-- Mouth -->
+  <path d="M20 42 Q32 50 44 42" stroke="#664500" stroke-width="3" fill="none"/>
+
+  <!-- Thermometer -->
+  <rect x="30" y="30" width="4" height="18" rx="2" fill="#E75A70"/>
+  <circle cx="32" cy="50" r="5" fill="#E75A70"/>
+
+  <!-- Thermometer highlight -->
+  <rect x="31" y="32" width="2" height="10" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Sweat (sick effect) -->
+  <ellipse cx="48" cy="18" rx="3" ry="5" fill="#5DADEC"/>
+</svg>

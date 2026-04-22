@@ -1,0 +1,22 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Icon: modern rounded square with medical cross -->
+  <rect x="20" y="20" width="72" height="72" rx="18" fill="#5F6FFF"/>
+
+  <!-- Plus/cross symbol -->
+  <rect x="50" y="34" width="12" height="44" rx="4" fill="white"/>
+  <rect x="34" y="50" width="44" height="12" rx="4" fill="white"/>
+
+  <!-- Small pink dot accent -->
+  <circle cx="74" cy="26" r="6" fill="#FF6B8A"/>
+
+  <!-- Doc in blue -->
+  <text x="110" y="68" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#5F6FFF">Doc</text>
+
+  <!-- Nest in dark navy -->
+  <text x="214" y="68" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#1A1F5E">Nest</text>
+
+  <!-- Tagline -->
+  <text x="112" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#8890CC" letter-spacing="2">Book. Trust. Heal.</text>
+
+</svg>

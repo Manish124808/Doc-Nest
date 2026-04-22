@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128">
+
+  <!-- Frame -->
+  <rect x="16" y="6" width="32" height="6" rx="2" fill="#444"/>
+  <rect x="16" y="52" width="32" height="6" rx="2" fill="#444"/>
+
+  <!-- Glass -->
+  <path d="M20 12 L44 12 C44 22 36 26 32 32 C36 38 44 42 44 52 L20 52 C20 42 28 38 32 32 C28 26 20 22 20 12Z"
+        fill="#E3F2FD" stroke="#444" stroke-width="2"/>
+
+  <!-- Top Sand -->
+  <path id="topSand"
+        d="M22 14 H42 C42 20 36 24 32 28 C28 24 22 20 22 14Z"
+        fill="#F4C542">
+    <animate attributeName="d"
+      dur="2s"
+      repeatCount="indefinite"
+      values="
+      M22 14 H42 C42 20 36 24 32 28 C28 24 22 20 22 14Z;
+      M24 18 H40 C40 22 36 24 32 26 C28 24 24 22 24 18Z;
+      M28 22 H36 C36 24 34 25 32 26 C30 25 28 24 28 22Z;
+      M22 14 H42 C42 20 36 24 32 28 C28 24 22 20 22 14Z
+      " />
+  </path>
+
+  <!-- Bottom Sand -->
+  <path id="bottomSand"
+        d="M28 46 H36 C36 44 34 42 32 40 C30 42 28 44 28 46Z"
+        fill="#F4C542">
+    <animate attributeName="d"
+      dur="2s"
+      repeatCount="indefinite"
+      values="
+      M28 46 H36 C36 44 34 42 32 40 C30 42 28 44 28 46Z;
+      M24 50 H40 C40 46 36 42 32 38 C28 42 24 46 24 50Z;
+      M22 50 H42 C42 44 36 40 32 36 C28 40 22 44 22 50Z;
+      M28 46 H36 C36 44 34 42 32 40 C30 42 28 44 28 46Z
+      " />
+  </path>
+
+  <!-- Falling Sand Stream -->
+  <rect x="30.5" y="28" width="3" height="8" fill="#F4C542">
+    <animate attributeName="height"
+      values="2;10;2"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </rect>
+
+</svg>

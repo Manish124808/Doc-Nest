@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24" fill="none">
+  
+  <!-- outer chat shape (wider) -->
+  <path
+    d="M22 2H4C2.5 2 1.5 3 1.5 4.5v13c0 1.5 1 2.5 2.5 2.5h4v3c0 .4.5.6.8.3L12.5 20H22c1.5 0 2.5-1 2.5-2.5v-13C24.5 3 23.5 2 22 2z"
+    fill="white"
+    stroke="black"
+    stroke-width="1.5"
+  />
+
+  <!-- gray dots inside -->
+  <circle cx="10" cy="11" r="1.2" fill="#9ca3af"/>
+  <circle cx="14" cy="11" r="1.2" fill="#9ca3af"/>
+  <circle cx="18" cy="11" r="1.2" fill="#9ca3af"/>
+
+</svg>

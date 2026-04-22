@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128">
+  <!-- Face -->
+  <circle cx="32" cy="34" r="22" fill="#FFCC4D"/>
+
+  <!-- Hair -->
+  <path d="M10 28 Q20 8 32 12 Q44 8 54 28 Q50 20 32 20 Q14 20 10 28Z" fill="#6D4C41"/>
+
+  <!-- Eyes -->
+  <circle cx="24" cy="34" r="3.5" fill="#333"/>
+  <circle cx="40" cy="34" r="3.5" fill="#333"/>
+
+  <!-- Smile -->
+  <path d="M24 44 Q32 50 40 44" stroke="#333" stroke-width="2.5" fill="none"/>
+
+  <!-- Ears -->
+  <circle cx="12" cy="34" r="3" fill="#FFCC4D"/>
+  <circle cx="52" cy="34" r="3" fill="#FFCC4D"/>
+
+  <!-- Neck -->
+  <rect x="28" y="48" width="8" height="6" fill="#FFCC4D"/>
+
+  <!-- Shirt -->
+  <path d="M16 60 Q32 48 48 60 Z" fill="#4FC3F7"/>
+</svg>

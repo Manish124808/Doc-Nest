@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128">
+  <!-- Head -->
+  <rect x="12" y="16" width="40" height="32" rx="8" fill="#B0BEC5"/>
+
+  <!-- Antenna -->
+  <line x1="32" y1="8" x2="32" y2="16" stroke="#78909C" stroke-width="3"/>
+  <circle cx="32" cy="6" r="3" fill="#FF5252"/>
+
+  <!-- Eyes -->
+  <circle cx="24" cy="30" r="5" fill="#263238"/>
+  <circle cx="40" cy="30" r="5" fill="#263238"/>
+
+  <!-- Eye glow -->
+  <circle cx="24" cy="30" r="2" fill="#00E5FF"/>
+  <circle cx="40" cy="30" r="2" fill="#00E5FF"/>
+
+  <!-- Mouth -->
+  <rect x="22" y="40" width="20" height="6" rx="2" fill="#263238"/>
+
+  <!-- Teeth lines -->
+  <line x1="26" y1="40" x2="26" y2="46" stroke="#90A4AE" stroke-width="1"/>
+  <line x1="30" y1="40" x2="30" y2="46" stroke="#90A4AE" stroke-width="1"/>
+  <line x1="34" y1="40" x2="34" y2="46" stroke="#90A4AE" stroke-width="1"/>
+  <line x1="38" y1="40" x2="38" y2="46" stroke="#90A4AE" stroke-width="1"/>
+
+  <!-- Side bolts -->
+  <circle cx="10" cy="28" r="2" fill="#78909C"/>
+  <circle cx="54" cy="28" r="2" fill="#78909C"/>
+</svg>
